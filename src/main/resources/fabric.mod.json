@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "weapons_plus",
+  "version": "${version}",
+  "name": "Weapons+",
+  "description": "Adds more weapons in the vanilla style",
+  "authors": [
+    "Stereo528"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/weapons_plus/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.stereo528.WeaponsPlus"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "weapons_plus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*"
+  }
+}
